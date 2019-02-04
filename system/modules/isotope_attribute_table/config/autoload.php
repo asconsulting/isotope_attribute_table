@@ -17,7 +17,7 @@
 
 ClassLoader::addClasses(array
 (
-	'Isotope\Model\Attribute\Table' => 'system/modules/isotope_attribute_table/library/Isotope/Model/Attribute/Table.php',
+	'IsotopeAsc\Model\Attribute\Table' => 'system/modules/isotope_attribute_table/library/IsotopeAsc/Model/Attribute/Table.php',
 ));
 
 

@@ -11,5 +11,5 @@
 
 
 
-\Isotope\Model\Attribute::registerModelType('tableAttr', 'Isotope\Model\Attribute\Table');
+\Isotope\Model\Attribute::registerModelType('tableAttr', 'IsotopeAsc\Model\Attribute\Table');
 
