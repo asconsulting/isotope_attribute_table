@@ -11,4 +11,4 @@
 
  
 
-$GLOBALS['TL_DCA']['tl_iso_attribute']['palettes']['tableAttr'] = '{attribute_legend},name,field_name,type,legend;{config_legend},mandatory;';
+$GLOBALS['TL_DCA']['tl_iso_attribute']['palettes']['tableAttr'] = '{attribute_legend},name,field_name,type,legend;{config_legend},mandatory;{search_filters_legend},fe_search,be_search';
