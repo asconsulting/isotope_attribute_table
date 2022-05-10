@@ -12,17 +12,17 @@
         }
     ],
     "require":{
-        "php": "~5.4 || ~7.0",
-        "contao/core-bundle": "^3.5.2 || ~4.4",
-        "contao-community-alliance/composer-plugin": "~2.4 || ~3.0"
+        "php": ">=7.4",
+        "contao/core-bundle": ">=4.13",
+		"isotope/isotope-core": ">=2.8"
     },
     "require-dev": {
         "contao/manager-plugin": "^2.0"
     },
     "autoload": {
-        "psr-0": {
-            "Asc\\": [
-                "system/modules/isotope_attribute_table/library"
+        "psr-4": {
+            "IsotopeAsc\\": [
+                "system/modules/isotope_attribute_table/library/IsotopeAsc"
             ]
         }
     },

@@ -15,7 +15,7 @@ namespace IsotopeAsc\Model\Attribute;
 
 use Isotope\Interfaces\IsotopeAttribute;
 use Isotope\Interfaces\IsotopeProduct;
-use Isotope\Model\Attribute;
+use Isotope\Model\Attribute as IsotopeAttributeModel;
 
 
 /**
@@ -24,7 +24,7 @@ use Isotope\Model\Attribute;
  * @copyright  Isotope eCommerce Workgroup 2009-2014
  * @author     Christoph Wiechert <cw@4wardmedia.de>
  */
-class Table extends Attribute implements IsotopeAttribute
+class Table extends IsotopeAttributeModel implements IsotopeAttribute
 {
 
 
