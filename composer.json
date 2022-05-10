@@ -14,7 +14,7 @@
     "require":{
         "php": ">=7.4",
         "contao/core-bundle": ">=4.9",
-		"isotope/isotope-core": ">=2.8"
+		"isotope/isotope-core": ">=2.6"
     },
     "require-dev": {
         "contao/manager-plugin": "^2.0"
